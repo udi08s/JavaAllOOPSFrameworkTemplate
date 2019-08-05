@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Flight Booking Suite" duration-ms="27433" started-at="2019-08-02T02:59:45Z" finished-at="2019-08-02T03:00:13Z">
+    <groups>
+    </groups>
+    <test name="FlightBooking" duration-ms="27038" started-at="2019-08-02T02:59:45Z" finished-at="2019-08-02T03:00:12Z">
+      <class name="com.testingfoo.tests.FlightBookingTest">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testingfoo.tests.FlightBookingTest@5dbe30be]" name="setUpTest" is-config="true" duration-ms="24860" started-at="2019-08-02T02:59:45Z" finished-at="2019-08-02T03:00:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.testingfoo.tests.FlightBookingTest@5dbe30be]" name="test" duration-ms="1753" started-at="2019-08-02T03:00:10Z" finished-at="2019-08-02T03:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testingfoo.tests.FlightBookingTest@5dbe30be]" name="tearDown" is-config="true" duration-ms="310" started-at="2019-08-02T03:00:12Z" finished-at="2019-08-02T03:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testingfoo.tests.FlightBookingTest -->
+    </test> <!-- FlightBooking -->
+    <test name="FlightBooking2" duration-ms="27433" started-at="2019-08-02T02:59:45Z" finished-at="2019-08-02T03:00:13Z">
+      <class name="com.testingfoo.tests.FlightBookingTest">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testingfoo.tests.FlightBookingTest@533b266e]" name="setUpTest" is-config="true" duration-ms="18089" started-at="2019-08-02T02:59:45Z" finished-at="2019-08-02T03:00:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.testingfoo.tests.FlightBookingTest@533b266e]" name="test" duration-ms="3712" started-at="2019-08-02T03:00:04Z" finished-at="2019-08-02T03:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testingfoo.tests.FlightBookingTest@533b266e]" name="tearDown" is-config="true" duration-ms="4562" started-at="2019-08-02T03:00:08Z" finished-at="2019-08-02T03:00:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testingfoo.tests.FlightBookingTest -->
+    </test> <!-- FlightBooking2 -->
+  </suite> <!-- Flight Booking Suite -->
+</testng-results>

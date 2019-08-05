@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Flight Booking Suite" thread-count="2" parallel="tests" verbose="3">
+  <test thread-count="5" name="FlightBooking" parallel="methods">
+   <parameter name="browser" value="chrome" />
+    <classes>
+     <class name="com.testingfoo.tests.FlightBookingTest"/> 
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="FlightBooking2" parallel="methods">
+   <parameter name="browser" value="ff" />
+    <classes>
+     <class name="com.testingfoo.tests.FlightBookingTest"/> 
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
